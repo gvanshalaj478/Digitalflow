@@ -1,0 +1,78 @@
+/* style for homepage */
+.home1{
+  align-items: center;
+  text-align: center;
+  width:100%;
+  font-family: 'Abril Fatface', cursive;
+  display: block;
+  margin-top:30px;
+  margin-bottom:50px;
+}
+.home2{
+  letter-spacing:1.5px;
+}
+.home3{
+  text-align: center;
+}
+.homeimg{
+  height:130px;
+  width:130px;
+  border-radius:0 20px 0 20px;
+  box-shadow:5px 10px #888888;
+}
+/* style for all button */
+button{
+  width:80px;
+  height:35px;
+  border-radius:30px;
+  border-style: double;
+  border-color: red black;
+  text-decoration: none;
+}
+/* style for input */
+input{
+  text-align: center;
+  align-items: center;
+  margin-top:10px;
+  margin-bottom:10px;
+  border:none;
+  border-bottom:1px solid #343f56 ;
+  outline:none;
+}
+
+/* style for login page */
+
+.loginpage{
+  text-align: center;
+}
+/* style for signup page */
+.signpage{
+text-align: center;
+
+}
+/* style for secret page */
+.sec1{
+  text-align: center;
+}
+
+label{
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+a{
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size:20px;
+}
+
+/* style fot Footer */
+#social{
+  text-align: center;
+}
+.social{
+  margin:10px;
+}
+/*  */
+
+i{
+  margin:5px;
+}

@@ -1,0 +1,16 @@
+<%- include('header'); -%>
+    <form class="loginpage" action="/login" method="post">
+      <h1>login</h1>
+    <i class="fas fa-user"></i> <input type="email" name="username" value="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+    <br>
+
+    <i class="fas fa-keyboard"> </i><input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" value="" required>
+    <br>
+    <button type="submit" name="button">Login</button>
+
+    <p>if you don't have  an account please signup</p>
+    <button type="button" name="button"><a href="/register">SignUp!</a></button>
+    </form>
+
+</form>
+<%- include('footer'); -%>

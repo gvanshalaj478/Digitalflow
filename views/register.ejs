@@ -1,0 +1,33 @@
+<%- include('header'); -%>
+
+<form class="signpage" action="/register" method="POST">
+  <h1> Sign up form </h1>
+  <h2>create an account</h2>
+  <label for="">Username</label>
+  <input type="text" name="username" placeholder="Username" required>
+
+  <label for="">Name</label>
+  <input type="text" name="fullName" value="" placeholder="Full Name" required>
+  <br>
+
+  <label for="">Email</label>
+  <input type="email" name="email" value="" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+
+  <label for="">Password</label>
+  <input type="password" name="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="password" required><br>
+  <br>
+
+  <label for="">Address</label>
+  <input type="text" name="address" placeholder="Address" value="" required>
+
+  <label for="">Mobile</label>
+  <input type="tel" name="mobile" placeholder="10 digit mobile number" value="" pattern="[0-9]{10}" title="Enter 10 Digit mobile number" required>
+  <br>
+
+  <button>Create Account</button>
+  <h3>if you have an account ! please login</h3>
+  <button type="button" name="button"> <a href="/login">Login</a></button>
+</form>
+
+
+<%- include('footer'); -%>
